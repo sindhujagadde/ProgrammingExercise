@@ -1,0 +1,211 @@
+<!Doctype html>
+<html>
+<head>
+
+
+<style>
+p{
+   -webkit-animation-name: slidein;
+   -webkit-animation-duration: 2s;
+   -webkit-animation-delay: 3s;
+   animation-name: slidein;
+   animation-duration: 2s;
+   animation-delay: 3s;
+    background-color: white;
+    width: 480px;
+	border: 25px;
+	padding-left:25px;
+	padding-right:25px;
+    height: 300px;
+	text-align:initial;
+	z-index:3;
+    position: absolute;
+    display: block;
+	margin-top:8.7%;
+	margin-left:33%;
+	font-size:100%;
+}
+
+<!-- @-webkit-keyframes textbox{
+from{left:90%;}
+  to{left:10%;}
+
+}
+@keyframes textbox{
+from{left:90%;}
+  to{left:10%;}
+
+} -->
+@-webkit-keyframes slidein {
+            from {
+                margin-left: 100%;
+                
+            }
+
+            to {
+                margin-left: 33%;
+                
+            }
+        }
+
+@-webkit-keyframes slideout {
+            from {
+                margin-left: 10%;
+                
+            }
+
+            to {
+                margin-left: 90%;
+                
+            }
+        }
+div.main
+{   
+	min-width:320px;
+    position:fixed;
+    top:30px;
+    left:300px;
+    right:300px;
+    
+
+}
+
+
+div.block1 {
+ width:100%;
+ height:100px;
+ background-color:#EC7301;
+ border:1px solid #000000;
+}
+
+div.block2 {
+ width:12.7%;
+ height:115px;
+ margin-top:0.7%;
+ float:left;
+ margin-bottom: 3em;
+ background-color:#FC3A1B;
+ border:1px solid #FC3A1B;
+}
+
+div.block3 {
+ width:12.5%;
+ z-index: 6;
+ height:115px;
+ float:right;
+  margin-top:0.7%;
+ margin-bottom: 3em;
+ background-color:#000000;
+ border:1px solid #000000;
+}
+
+div.block4{
+ width:72%;
+ position: absolute;
+ z-index:5;
+ height:104px;
+ margin-left:14%;
+ margin-top:1.6%;
+ margin-bottom: 0.5em;
+ background-color:#04B6F0;
+ border:1px solid #04B6F0;
+}
+
+div.block5{
+ width:95%;
+ margin-left: 2%;
+ height:120px;
+ margin-top:13.5%;
+  margin-bottom: 0.5em;
+ background-color:#10AD00;
+ border:1px solid #10AD00;
+}
+
+div.block6 {
+ width:100%;
+ height:100px;
+ position: absolute;
+ z-index:5;
+  margin-bottom: 0.5em;
+ background-color:#EDDF02;
+ border:1px solid #000000;
+}
+
+div.block7{
+ width:17.1%;
+ height:120px;
+ margin-top:11.7%;
+ margin-left:6.9%;
+ background-color:#828282;
+ border:1px solid #828282;
+}
+
+div.block8{
+ width:61.9%;
+ height:120px;
+ margin-top:11%;
+  float:right;
+ margin-left:17%;
+  margin-bottom: 1em;
+ background-color:#E1039A;
+ border:1px solid #E1039A;
+}
+
+div.block9{
+position:absolute;
+z-index:2;
+ width:38%;
+ height:20%;
+ margin-top:13.5%;
+ margin-left:12.0%;
+ transform: rotate(90deg);
+ background-color:#6809C9;
+ border:1px solid #6809C9;
+}
+}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() { 
+    setTimeout(function() { 
+        $('#anim').fadeOut(); 
+ }, 10000); 
+});
+</script>
+<head>
+</style>
+
+<body>
+<div class=main>
+    <div class=block1>
+      </div>
+    <div class=block3>
+      </div>
+    <div class=block2>
+      </div>
+	  <div class=block9>
+	  </div>
+	  <div class=block4>
+	  </div>
+	  <div class=block5>
+	  </div>
+	  <div class=block6>
+	  </div>
+	  <div class=block8>
+	  </div>
+	  <div class=block7>
+	  </div>
+
+ </div>
+ 	  
+<p>
+<br>
+<b><h style="font-size:120%;"> &emsp; &emsp; &emsp;&emsp; This is a headline that will not wrap.<h></b><br><br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In libero velit, gravida pellentesque lectus nec, semper eleifend mi. Quisque est leo, lacinia ut fringilla ac, lobortis sit amet ex. Sed vitae posuere diam. Suspendisse sed nisl rutrum, ultrices augue vitae, rhoncus dolor. Suspendisse sit amet sapien velit. In ut nunc sed nibh tempus dignissim in id neque. Nunc vel porttitor massa, non lobortis lorem. Sed consectetur, elit id feugiat efficitur, magna nisi pulvinar leo, sit amet pharetra erat purus eget quam. Fusce ullamcorper, metus eget porta malesuada, quam purus tristique augue, vel mattis lectus felis sed velit. Suspendisse vitae venenatis velit. Nullam in lobortis dolor, vitae dignissim ex. Integer luctus dolor nec eros congue, eget egestas magna molestie. Phasellus sit amet fermentum libero.
+
+</p>
+
+
+</script>
+
+</body>
+</html>
